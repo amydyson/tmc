@@ -1,0 +1,238 @@
+* {
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	color: #555;
+	font-family: 'Lato', 'Arial', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	text-rendering: optimizeLegibility;
+}
+
+	.row {
+		max-width: 1140px;
+		margin: 0 10%;
+	}
+
+
+	header	{
+		background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),  url(img/anthony-delanoix-15928.jpg);
+		background-size: cover;
+		background-position: center;
+		height: 100vh;
+		margin-bottom: 80px;
+
+	}
+
+	h1, h2, h3 {
+		margin: 0;
+		margin-bottom: 20px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		word-spacing: 4px;
+		
+
+	}
+
+	h1 {
+		font-size: 240%;
+		color: white;
+	}
+
+	h2 {
+		font-size: 180%;
+		word-spacing: 2px;
+	}
+
+	.underline-it:after {
+
+		display: block;
+		height: 2px;
+		background-color: #e67e22;
+		height: 2px;
+		content: "";
+		width: 100px;
+		margin: 0 auto;
+		margin-top: 30px;
+	}
+
+	h3 {
+		font-size: 120%;
+		font-weight: 10%;
+		word-spacing: 1px;
+	}
+
+	nav {
+		margin-left: 10%;
+		margin-right: 10%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.nav-row {
+		display: flex;
+		margin: 10px 10px;
+	}
+
+	.nav-item {
+		display: flex;
+		margin: 10px 10px;
+		color: white;
+		font-size: 90%;
+		text-transform: uppercase;
+	}
+
+	.logo {
+		height: 120px;
+	/*	align-self: flex-start;*/
+
+	}
+	.hero-text-box {
+		margin-left: 10%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.btn:link,
+	.btn:visited {
+		display: inline-block;
+		padding: 10px 30px;
+		font-weight: 300;
+		text-decoration: none;
+		border-radius: 200px;
+		color: #fff;
+		transition: background-color 0.2s, border 0.2s, color 0.2s;
+	}
+
+	.btn-full:link,
+	.btn-full:visited {
+		background-color: #e67e22;
+		border: 1px solid #e67e22;
+		margin-right: 15px;
+	}
+
+
+	.btn-ghost:link,
+	.btn-ghost:visited {
+
+		 border: 1px solid #e67e22;
+		 color: #e67e22;;
+	}
+
+	.btn:hover,
+	.btn:active {
+		background-color: #bf6516;
+		color: white;
+
+	}
+
+.nav-item a:link,
+.nav-item a:visited {
+	color: white;
+	text-decoration: none;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom: 0.2s;
+	padding: 8px 0;
+}
+
+.nav-item a:hover,
+.nav-item a:active {
+
+	border-bottom: 2px solid #bf6516;
+}
+
+.flex-row {
+    margin: 0 15%;
+	display: flex;
+}
+
+.student {
+	margin: 0
+}
+
+
+.student-heading {
+	text-align: center;
+	color: #bf6516;
+}
+
+.flex-col {
+
+	margin: 40px 30px 20px 30px;
+	padding: 1%;
+	flex-direction: column;
+	text-align: left;
+	flex: 1;
+}
+
+
+.student-music{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+
+.about-intro, .students-intro {
+	text-align: center;
+}
+
+.short-copy {
+    margin: 40px 0 0 0;
+    line-height: 145%
+
+}
+.long-copy {
+
+	font-size: 90%;
+	line-height: 1.4em;
+}
+
+.fa {
+	margin-bottom: 10px;
+	color: #e67e22;
+}
+
+.db {
+	display: flex;
+	justify-content: center;
+	padding: 10px 0 40px 0;
+}
+
+.donate-text {
+
+	text-align: center;
+}
+
+.nav-2 {
+	background-color: #bf6516;
+	margin: 0;
+	height: 60px;
+}
+
+.nav-2 .logo {
+	height: 50px;
+	margin-left: 40px;
+
+}
+
+.nav-2 .nav-row {
+	margin-right: 40px;
+}
+
+.iframe {
+	margin: 20px 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+
